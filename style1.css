@@ -1,0 +1,44 @@
+body {
+    background-image: url(foto/jaw.jpg);
+    background-size: cover;
+}
+
+.navbutton {
+    background-color: rgb(104, 195, 238);
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-decoration: none;
+}
+
+/* Kjo ndez butonin poshte kur nuk perdoret */
+.kutia-poshte {
+    display: none;
+    position: absolute;
+    padding-top: 20px; 
+    margin-left: -27px;
+    margin-right: 3;
+}
+
+/* Kjo Class ndez menue poshte gjate hoverit */
+.navbutton:hover .kutia-poshte {
+    display: block;
+}
+
+.kutia-poshte .navbutton {
+    background-color: aquamarine;
+}
+
+.kutia-poshte .navbutton:hover {
+    background-color: pink;
+    transition-duration: 100ms;
+}
+
+.kutia-poshte .navbutton:visited {
+    background-color: rgb(255, 0, 43)255, 0, 43);
+    transition-duration: 100ms;
+}
